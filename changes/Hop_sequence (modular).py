@@ -44,9 +44,9 @@ class Point():
     data = data.sort_values(by = ['ra', 'dec'])
   
     for i in range(len(data)):    
-      while (data['ra'][i] > l_x_limit and data['ra'][i] < r_x_limit) and (data['dec'][i] > l_y_limit and data['dec'][i] < r_y_limit):
+      if (data['ra'][i] > l_x_limit and data['ra'][i] < r_x_limit) and (data['dec'][i] > l_y_limit and data['dec'][i] < r_y_limit):
         stars_catalogue = stars_catalogue.append({'star': data['star'][i], 'ra': data['ra'][i], 'dec': data['dec'][i], 'brightness': data['brightness'][i]}, ignore_index=True)
-        break
+       
 
     if len(stars_catalogue) >= self.max_stars:
        stars_catalogue = stars_catalogue[stars_catalogue['brightness'] > self.limiting_brightness]
