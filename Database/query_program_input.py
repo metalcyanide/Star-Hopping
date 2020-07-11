@@ -15,7 +15,6 @@ from astropy.io import ascii
 from astropy import units as u
 from astropy.coordinates import SkyCoord, get_constellation
 import pandas as pd 
-import kaggle
 import glob, os
 
 
