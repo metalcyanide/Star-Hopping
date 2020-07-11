@@ -1,7 +1,7 @@
 # Hopping
 Repository containing work done in hopping project
 
-In order to use the program in its pre-final state, first obtain the entire folder called Database, available in this git repo.
+In order to use the program in its final state, first obtain the entire folder called Database, available in this git repo.
 
 The folder contains three files - IAU-CSN.csv which is the file containing star names, query_program_input.py which is the actual program, and requirements.txt.
 Download these three files and keep them in the same folder/place.
