@@ -1,21 +1,35 @@
-# checkpoints folder
-.ipynb_checkpoints/ 
-
-messierObjects.ipynb
-Untitled1.ipynb
-Stereo.ipynb
-a.png
-books_read.png
-ellipse.svg
-hygdata_v3.csv
-hygfull.csv
+.ipynb_checkpoints
+venv
+annotrepet.py
+constellation_borders.csv
+constellation_names.py
+CrossCatalog.csv
+data_queries.ipynb
+data_queries.py
+data_query.ipynb
+DsCrossCatalog.csv
+editor.ipynb
+editor_interface_old.py
+editor_vivek1.py
+extra ei
+gui (copy).py
+helllo.ipynb
+hop.pkl
+hops.csv
 IAU-CSN.csv
-instagram-logo.svg
-messier.csv
+messier_objects.csv
 messierObjects.ipynb
-NOMAD.csv
-NOMAD_1.csv
-NOMAD_2.csv
-NOMAD_3.csv
-.idea/
-venv/
+NGC.csv
+pickle_to_csv.py
+query_program_input.ipynb
+query_program_input.py
+raDecPlot.py
+resolver_attempt.py
+sniptest.py
+sniptest1.py
+Stereo.ipynb
+stereographic_projection.py
+tycho-1.csv
+tycho-2.csv
+UI Inputs.pdf
+.idea
